@@ -1,11 +1,11 @@
 import React from "react";
 import NotesCard from './NotesCard'
-//fetch data here
 
-//should give props
+
+//should accept props
 export default function CardList(){
     return(
-    <div className="flex flex-col w-full max-w-md gap-y-4 items-baseline">
+    <div className="flex flex-col w-full max-w-xl gap-y-4 ">
         <h2>
             #Mechanics of materials
         </h2>
