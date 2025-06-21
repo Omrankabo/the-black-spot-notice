@@ -6,13 +6,13 @@ export default function Home(){
             {
                 // header
             }
-            <header className="flex flex-col items-center gap-y-2">
-                <h1 className="font-bold text-4xl text-center">Want to thrive & break free from what they calling limits?</h1>
+            <header className="flex flex-col items-center gap-y-2 pt-16">
+                <h1 className="font-bold text-4xl text-center">Want to thrive & break free from what they call limits?</h1>
                 <h3 className="text-md text-center">Here you will find How and reach a new stage where nothing could ever stop you.</h3>
                 <div className="flex gap-x-2 justify-center">
-                    <h5>🏋️‍♂️TRAIN</h5>
-                    <h5>🧑‍💻BUILD</h5>
-                    <h5>🚀THRIVE</h5>
+                    <h5 className="text-sm font-bold text-gray-700">🏋️‍♂️TRAIN</h5>
+                    <h5 className="text-sm font-bold text-gray-700">🧑‍💻BUILD</h5>
+                    <h5 className="text-sm font-bold text-gray-700">🚀THRIVE</h5>
                 </div>
             </header>
             {
